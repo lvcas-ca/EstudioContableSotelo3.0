@@ -1,12 +1,14 @@
 .dolarContainer{
 
     padding-block: 8px;
-    border-block: 1px solid;
+    border-block: 1px solid #E49F37;
     overflow: hidden;
     user-select: none;
     --gap: 20px;
     display: flex;
     gap: var(--gap);
+    position: relative;
+    top: 127px;
 
     .dolarList{
       
@@ -24,6 +26,9 @@
         ul{
           display: flex;
           flex-direction: row;
+          .dolarSpan{
+            font-size: 14px;
+          }
         }
         ul:first-child{
             display: flex;
@@ -42,4 +47,16 @@
     100% {
         transform: translateX(-1485.84px);
     }
-  }
+}
+
+@media (min-width: 1024px) and (max-width: 1195px) {
+    .dolarContainer{
+        top: 117px;  
+    }
+}
+
+@media (min-width: 1195px) {
+    .dolarContainer{
+        top: 147px;  
+    }
+}

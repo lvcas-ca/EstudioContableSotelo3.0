@@ -22,8 +22,8 @@ export const Cotizaciones = () => {
           <div className={contizacionesCss.dolarList} key={d.casa}>
             <ul>
               <li>
-                <span>
-                  <strong>USD {d.nombre}:</strong> {d.compra}
+              <span className={contizacionesCss.dolarSpan}>
+                  <strong>USD {d.nombre}:</strong> ${d.compra}
                 </span>
               </li>
             </ul>
@@ -35,8 +35,8 @@ export const Cotizaciones = () => {
           <div className={contizacionesCss.dolarList} key={d.casa}>
             <ul>
               <li>
-                <span>
-                  <strong>USD {d.nombre}:</strong> {d.compra}
+                <span className={contizacionesCss.dolarSpan}>
+                  <strong>USD {d.nombre}:</strong> ${d.compra}
                 </span>
               </li>
             </ul>

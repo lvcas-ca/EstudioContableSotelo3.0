@@ -1,0 +1,45 @@
+.dolarContainer{
+
+    padding-block: 8px;
+    border-block: 1px solid;
+    overflow: hidden;
+    user-select: none;
+    --gap: 20px;
+    display: flex;
+    gap: var(--gap);
+
+    .dolarList{
+      
+    
+        list-style: none;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        animation-duration: 37.1461s;
+        animation-name: scroll;
+
+        ul{
+          display: flex;
+          flex-direction: row;
+        }
+        ul:first-child{
+            display: flex;
+            flex-direction: row-reverse;
+          }
+       
+     
+    }   
+    
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(-1485.84px);
+    }
+  }

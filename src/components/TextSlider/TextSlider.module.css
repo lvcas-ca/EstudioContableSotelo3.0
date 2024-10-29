@@ -1,0 +1,15 @@
+.changebox {
+    margin: 0 5px;
+    color: #FF5722;
+    overflow: hidden;
+    transition: .5s;
+    display: flex;
+    flex-direction: column; /* Apila verticalmente */
+  }
+  
+  .changebox span {
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }

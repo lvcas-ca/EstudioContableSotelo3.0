@@ -1,11 +1,12 @@
-import { Header } from "../components/Header";
+import { Title } from "../components/Title/Title";
+
 
 
 function InfoCripto(){
     return(
         <>
         
-        <Header/>
+
         <h1>INFO CRIPT</h1>
         
         </>

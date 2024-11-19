@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+
+body{
+  background-color: white
 }
 
 @tailwind base;
@@ -46,6 +51,7 @@
   --white-color: rgba(255, 255, 255, 0.87);
   --background-blue: #262B3E;
   --background-blue-strong: #06080F;
+  --gradient-color: linear-gradient(to right bottom, #eec14c, #ecb745, #e9ae3f, #e6a439, #e39a34);
 
   /* PADDINGS */
   /* Mobile P */

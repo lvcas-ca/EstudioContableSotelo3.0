@@ -1,35 +1,21 @@
 
 import HeaderCss from "./Header.module.css"
-import siteLogo from "../assets/logo-white.png";
-import useResponsiveWidth from "./utilities/useResponsiveWidth";
 import TextSlider from "./TextSlider/TextSlider.tsx";
-import { NavBar } from "./NavBar";
+import { NavBar } from "./NavBar/NavBar.jsx";
 import { Cotizaciones } from "./Cotizaciones/Cotizaciones.jsx";
 
 export const Header = () => {
 
- 
-  const width = useResponsiveWidth();
-  const medaQueryDesk = 1195;
 
   return (
     <>
       <Cotizaciones/>
-      <div className={HeaderCss.content}>
-        <img
-          className={HeaderCss.img}
-          src={siteLogo}
-          alt="Logo"
-          width={100}
-          height={80}
-        />
+    
 
         <NavBar />
 
-        <button className={width < medaQueryDesk ? "hidden" : null}>
-          Contacto
-        </button>
-      </div>
+     
+     
       <section className={HeaderCss.hero}>
         <h1>Dra. Maria Paola Sotelo</h1>
         <p>

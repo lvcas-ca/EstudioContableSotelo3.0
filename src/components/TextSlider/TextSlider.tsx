@@ -21,7 +21,7 @@ return () => clearInterval(interval)
 }, [])
 return (
  
-<button className="text-center font-bold tracking-tighter md:leading-[4rem] w-fit flex items-center jusitfy-center mx-auto gap-1.5">
+<button className="bg-custom-gradient text-[#242424] text-center font-bold tracking-tighter md:leading-[4rem] w-fit flex items-center justify-center mx-auto gap-1.5 py-2 px-4 rounded-lg">
   {text}{' '}
   <AnimatePresence mode="wait">
     <motion.p

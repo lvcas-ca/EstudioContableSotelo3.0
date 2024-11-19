@@ -1,0 +1,124 @@
+.cards{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    justify-items: center;
+    padding-top: 20px;
+   
+    .card {
+        
+        background: #FFDC5E;
+        border-radius: 5px;
+        width: 320px;
+        height: 460px;
+        padding: 0px 20px 15px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        transition: 0.2s ease-in-out; /* Transición para color sólido */
+        cursor: pointer;
+      
+        &:hover {
+           
+            background: #ffc456;
+            .arrow{
+                transform: rotate(45deg);
+            }
+            
+        }
+
+
+   
+       
+        & header{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            & span{
+                font-family: var(--fuente-terciaria);
+                color: var(--color-black);
+            }
+            .arrow{
+                width: 60px;
+                color: var(--color-black);
+                transition: 0.4s ease-in-out;
+            }
+        }
+
+        & h2{
+            font-family: var(--fuente-terciaria);
+            font-size: 30px;
+            line-height: 30px;
+            font-weight: 500;
+            color: var(--color-black);
+        }
+
+        & ul {
+            
+            li{
+                color: var(--color-black);
+                font-weight: 500;
+                
+            }   
+        } 
+
+      
+
+        & button{
+            background-color: transparent;
+            color: var(--color-black);
+            border: 1px solid var(--color-black);
+            width: 100%;
+        }
+  
+    }
+
+}
+
+.cards > a:nth-of-type(2) > .card ul {
+    line-height: 25px;
+}
+
+.cards > a:nth-of-type(3) > .card ul {
+    line-height: 20px;
+}
+
+.cards > a:nth-of-type(3) > .card {
+
+    header{
+        position: relative;
+        top: 10px;
+    }
+    button{
+        position: relative;
+        top: -15px;    
+    }
+    
+}
+
+.cards > a:nth-of-type(5) > .card ul {
+    line-height: 20px;
+    
+}
+
+.cards > a:nth-of-type(4) > .card {
+    gap: 40px
+     
+ }
+
+.cards > a:nth-of-type(5) > .card {
+   gap: 19px
+    
+}
+
+@media (min-width: 800px){
+    .cards{
+        padding-top: 60px;
+        .card{
+            width: 350px;
+        }
+    }
+}

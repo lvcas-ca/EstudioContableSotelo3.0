@@ -36,6 +36,13 @@ body{
   src: url('./fonts/epilogue/Epilogue-Medium.woff') format('ttf');
 }
 
+@font-face {
+  font-family: Outfit;
+  font-weight: 400;
+  src: url('./fonts/outfit/Outfit-VariableFont_wght.woff') format('woff');
+}
+
+
 .testing{
   background-color: red;
 }
@@ -45,6 +52,8 @@ body{
   --fuente-principal: 'Khand', sans-serif;
   --fuente-secundaria: 'Sarabun' sans-serif;
   --fuente-terciaria: 'Epilogue' sans-serif;
+  --fuente-outfit: 'Outfit' sans-serif;
+
   /* COLORES */ 
   --color-black: #242424;
   --color-yellow: #FFDC5E;

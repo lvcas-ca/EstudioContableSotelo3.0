@@ -83,7 +83,7 @@ function QuienesSomos() {
         </div>
         
         <img
-          src="https://res.cloudinary.com/dgtfypija/image/upload/v1733458923/Esstudio%20Contable%20web/universidad-sm_qqnzdt.png"
+          src="https://res.cloudinary.com/dgtfypija/image/upload/f_auto,q_auto/v1/Esstudio%20Contable%20web/bf9bmkgacvof44rhdbu1"
           alt="Universidad"
         />
       </div>

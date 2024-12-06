@@ -1,5 +1,5 @@
 import '../Home.css';
-import QuienesSomos from '../components/QuienesSomos';
+import QuienesSomos from '../components/QuienesSomos/QuienesSomos';
 import { Header } from '../components/Header';
 import { Servicios } from '../components/Servicios/Servicios';
 import { Contacto } from '../components/Contacto/Contacto';
@@ -7,13 +7,21 @@ import { Contacto } from '../components/Contacto/Contacto';
 function Home () {
     return (
         <>
-        <header>
+        <header >
             <Header/>
         </header>
-        <main className='px-[10px] md:px-[150px]'>
-
-           <Servicios/>
-           <Contacto/>
+        <main >
+           <div className='px-[10px] md:px-[150px]'>
+             <Servicios/> 
+           </div>
+           
+             <Contacto/> 
+              <div className='px-[10px] md:px-[150px] bg-[#1C1D20]'>
+                 <QuienesSomos/>   
+              </div>
+             
+           
+          
         </main>
       
           

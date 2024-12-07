@@ -12,6 +12,8 @@ export default {
       fontFamily: {
         Sarabun: ['Sarabun', 'sans-serif'], // 'sans-serif' es la fuente de respaldo
         Epilogue: ['Epilogue', 'sans-serif'], // 'sans-serif' es la fuente de respaldo
+        Outfit: ['Outfit', 'sans-serif'], // 'sans-serif' es la fuente de respaldo
+        Khand: ['Khand', 'sans-serif']
       },
       colors: {
         customBlack: '#242424', // Color personalizado

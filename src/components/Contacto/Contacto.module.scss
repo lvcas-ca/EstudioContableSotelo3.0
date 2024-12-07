@@ -18,14 +18,14 @@
       
         
         p{
-            font-family: var(--fuente-secundaria);
+            font-family: var(--fuente-principal);
             font-size: 30px;
             line-height: 30px;
             padding-bottom: 20px;
             font-weight: 500;
         }
         span{
-            font-size: 13px;
+            font-size: 16px;
             font-weight: 500;
             padding-bottom: 10px;
         }
@@ -87,9 +87,10 @@
                 line-height: 40px;
                 padding-bottom: 20px;
                 font-weight: 500;
+                width: 70%;
             }
             span{
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 20px;
                 font-weight: 500;
                 padding-bottom: 10px;

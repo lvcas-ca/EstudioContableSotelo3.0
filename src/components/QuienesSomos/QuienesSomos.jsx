@@ -7,7 +7,7 @@ import rocket from "/src/assets/rocket.png";
 function QuienesSomos() {
   return (
     <section id="about" className="bg-[black]">
-      <h2>Quienes Somos</h2>
+      <h2 className="text-[50px] lg:text-[70px] text-center font-Khand font-bold bg-[#1C1D20] pb-[50px] pt-[50px]">Quiénes Somos</h2>
       <div className={QuienesCss.quienes_container}>
         <img
           src="https://res.cloudinary.com/dgtfypija/image/upload/v1733458923/Esstudio%20Contable%20web/universidad-sm_qqnzdt.png"

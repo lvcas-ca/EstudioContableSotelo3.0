@@ -10,6 +10,7 @@
     gap: var(--gap);
     position: relative;
     top: 0px;
+    z-index: -1;
 
     .dolarList{
       

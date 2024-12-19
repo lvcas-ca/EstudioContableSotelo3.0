@@ -51,6 +51,8 @@
                           width: 30px;
                         }    
                     }
+
+                    
                    
                     button{
                         background-color: #262B3E;
@@ -178,9 +180,6 @@
 
    
 
-    #moveNavbar{
-      transform: translateX(100%);
-    }
 
 
 }

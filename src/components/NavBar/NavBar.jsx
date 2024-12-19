@@ -18,7 +18,7 @@ export const NavBar = () =>{
   const width = useResponsiveWidth();
   const medaQueryDesk = 1195;
 
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(null);
 
   const handleClick = () =>{
 
@@ -46,8 +46,8 @@ export const NavBar = () =>{
           />
 
           <nav className={NavBarCss.nav}>
-          <ul
-              className={`${width < medaQueryDesk ? NavBarCss["ul-absolute"] : NavBarCss["ul-block"]} 
+          <ul 
+              className={`${width < medaQueryDesk ? NavBarCss["ul-absolute"]  : NavBarCss["ul-block"]} 
                ${active ? NavBarCss["nav-active"] : NavBarCss["nav-desactive"]}`}
           >
 

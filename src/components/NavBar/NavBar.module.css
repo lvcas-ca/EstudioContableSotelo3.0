@@ -67,6 +67,7 @@
             position: relative;
             display: flex;
             gap: 15px;
+            
             li{
                 font-family: var(--fuente-terciaria);
                 font-weight: 500;
@@ -93,7 +94,11 @@
 }
 
 
-
+@media(max-width: 1195px){
+  .ul-block{
+    transform: translateX(0%);
+  }
+}
 
 @media (min-width: 1195px) {
     .content{
@@ -108,7 +113,7 @@
                 align-items: center;
                 gap: 20px;
                 top: 0;
-                animation: none;
+                transform: translateX(0%);
                 li{
                    
                     a{
@@ -170,6 +175,14 @@
             
          }
     }
+
+   
+
+    #moveNavbar{
+      transform: translateX(100%);
+    }
+
+
 }
 
 @keyframes slide-in {

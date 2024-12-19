@@ -2,13 +2,14 @@
 
     padding-block: 8px;
     border-block: 1px solid #E49F37;
+    background-color: #2C2E32;
     overflow: hidden;
     user-select: none;
     --gap: 20px;
     display: flex;
     gap: var(--gap);
     position: relative;
-    top: 127px;
+    top: 0px;
 
     .dolarList{
       
@@ -51,12 +52,12 @@
 
 @media (min-width: 1024px) and (max-width: 1195px) {
     .dolarContainer{
-        top: 117px;  
+        top: 0px;  
     }
 }
 
 @media (min-width: 1195px) {
     .dolarContainer{
-        top: 147px;  
+        top: 0px;  
     }
 }

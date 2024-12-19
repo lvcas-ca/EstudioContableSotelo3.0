@@ -6,7 +6,7 @@ export const Title = ({titulo, descripcion}) =>{
               {titulo}
             </h1>
 
-            <p className="font-Epilogue font-medium text-[12px] lg:text-30px] leading-tight text-customBlack text-black pt-5 lg:w-[550px] leading-[20px] uppercase">{descripcion}</p>   
+            <p className="font-Epilogue font-medium text-[12px] md:text-[15px] leading-tight text-customBlack text-black pt-5 lg:w-[550px] leading-[20px] uppercase">{descripcion}</p>   
         </div>
       
         </>

@@ -39,7 +39,9 @@ body{
 @font-face {
   font-family: Outfit;
   font-weight: 400;
-  src: url('./fonts/outfit/Outfit-VariableFont_wght.woff') format('woff');
+  src: url('./fonts/outfit/Figtree-Medium.ttf') format('ttf'),
+       url('./fonts/outfit/Figtree-SemiBold.ttf') format('ttf');
+       
 }
 
 
@@ -67,7 +69,7 @@ body{
   --mobile-padding: 0px 10px 0px 10px;  
 
   
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
   line-height: 1.5;
   font-weight: 400;
 

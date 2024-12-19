@@ -160,18 +160,17 @@ export const Cards = () =>{
                 <span>(007)</span>
                 <ArrowUpRightIcon className={CardsCss.arrow} />
               </header>
-              <h2>Servicios impoositivos</h2>
+              <h2>Servicios impositivos.</h2>
               <ul>
                 <li>
-                Constitución de sociedades en CABA
-                y provincia de Buenos Aires.
+                 Asesoramiento y liquidacion de impuestos.
                 </li>
                 <li>
-                  Trámites ante IGJ y DPPJ.
+                  Regularización fiscal.
                 </li>
-                <li>Inscripción y cesación de administradores.</li>
-                <li>Rúbrica de libros contables.</li>
-                <li>Asistencia en la confección de actas de directorio y asambleas.</li>
+                <li>Inspecciones y requerimientos.</li>
+                <li>Pequeños emprendedores.</li>
+                
               </ul>
 
               <button>Ver Mas</button>
@@ -184,18 +183,20 @@ export const Cards = () =>{
                 <span>(008)</span>
                 <ArrowUpRightIcon className={CardsCss.arrow} />
               </header>
-              <h2>Consultorías
-              Profesionales</h2>
+              <h2>Consultorías Profesionales</h2>
               <ul>
                 <li>
-                Constitución de sociedades en CABA
-                y provincia de Buenos Aires.
+                 Diagnóstico de Administraciones Disfuncionales.
                 </li>
                 <li>
-                Inscripción y cesación de administradores.
+                 Análisis de Flexibilidad Organizacional.
                 </li>
-                <li>Rúbrica de libros contables.</li>
-                <li>Asistencia en la confección de actas de directorio y asambleas.</li>
+                <li>
+                  Desarrollo de Soluciones Personalizadas.
+                </li>
+                <li>
+                 Acompañamiento Profesional Continuo.
+                </li>
                 
               </ul>
 

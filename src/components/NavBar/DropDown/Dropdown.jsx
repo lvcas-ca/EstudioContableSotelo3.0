@@ -43,7 +43,7 @@ return (
         <Link to={"/Sociedades"}>Sociedades</Link>
         <Link to={"/AdminConsorcios"}>Administración de consorcios</Link>
         <Link to={"/InformesCertificaciones"}>Informes y Certificaciones</Link>
-        <Link to={"/ServiciosImpositivos"}>Servicios impoositivos</Link>
+        <Link to={"/ServiciosImpositivos"}>Servicios impositivos</Link>
         <Link to={"/ConsultoriasProfesionales"}>Consultorías Profesionales</Link>
   </div>
   </>

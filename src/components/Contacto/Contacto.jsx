@@ -10,7 +10,7 @@ export const Contacto = () =>{
 
     return(
         <>
-        <section className={ContactoCss.contact__container}>
+        <section id="contacto" className={ContactoCss.contact__container}>
           <div className={ContactoCss.contact__container__text}>
             <p>Podemos asesorarte en lo que necesites.</p>
             <span>
@@ -40,8 +40,9 @@ export const Contacto = () =>{
             </div>
 
             <div className={ContactoCss.contact__container__text__redes}>
-                  <img src={facebook} alt="" />
-                  <img src={instagram} alt="" />
+              <a href="https://www.facebook.com/people/Estudio-Contable-Sotelo/100084190453606/" target="_blank"><img src={facebook} alt="facebok link" /></a>
+              <a href="https://www.instagram.com/estudiocontablesotelo/" target="_blank"><img src={instagram} alt="Instagram" /></a>   
+                  
             </div>
 
           </div>

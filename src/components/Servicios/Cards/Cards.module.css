@@ -8,8 +8,20 @@
    
     .card {
         
-        background: #FFDC5E;
-        border-radius: 5px;
+       
+        background-image: linear-gradient(to right bottom, #eec14c, #ecb745, #e9ae3f);    
+        background-size: 300% 100%;
+
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+
+
+
+
+         border-radius: 5px;
         width: 320px;
         height: 460px;
         padding: 0px 20px 15px 20px;
@@ -22,7 +34,11 @@
       
         &:hover {
            
-            background: #ffc456;
+            background-position: 100% 0;
+            moz-transition: all .4s ease-in-out;
+            -o-transition: all .4s ease-in-out;
+            -webkit-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
             .arrow{
                 transform: rotate(45deg);
             }
@@ -49,7 +65,7 @@
         }
 
         & h2{
-            font-family: var(--fuente-terciaria);
+            font-family: var(--fuente-principal);
             font-size: 30px;
             line-height: 30px;
             font-weight: 500;
@@ -76,6 +92,10 @@
   
     }
 
+}
+
+.cards > a:nth-of-type(1) > .card ul {
+    line-height: 29px;
 }
 
 .cards > a:nth-of-type(2) > .card ul {
@@ -113,6 +133,24 @@
    gap: 19px
     
 }
+
+.cards > a:nth-of-type(6) > .card {
+    gap: 38px
+     
+ }
+
+ .cards > a:nth-of-type(7) > .card {
+    gap: 44px
+     
+ }
+
+.cards > a:nth-of-type(8) > .card {
+    
+    gap: 41px;
+     
+}
+
+
 
 @media (min-width: 800px){
     .cards{

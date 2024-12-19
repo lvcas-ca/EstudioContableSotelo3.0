@@ -17,6 +17,7 @@ export default {
       },
       colors: {
         customBlack: '#242424', // Color personalizado
+        bgColorFooter: '#2C2E32'
       },
     },
   },

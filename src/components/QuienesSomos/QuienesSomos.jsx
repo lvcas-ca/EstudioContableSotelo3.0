@@ -6,7 +6,7 @@ import rocket from "/src/assets/rocket.png";
 
 function QuienesSomos() {
   return (
-    <section id="about" className="bg-[black]">
+    <section id="about" className="bg-[#1C1D20] pb-[80px]">
       <h2 className="text-[50px] lg:text-[70px] text-center font-Khand font-bold bg-[#1C1D20] pb-[50px] pt-[50px]">Quiénes Somos</h2>
       <div className={QuienesCss.quienes_container}>
         <img

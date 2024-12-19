@@ -9,12 +9,12 @@ export const Header = () => {
 
   return (
     <>
-      <Cotizaciones/>
+     
     
 
-        <NavBar />
+      <NavBar />
 
-     
+      <Cotizaciones/>
      
       <section className={HeaderCss.hero}>
         <h1>Dra. Maria Paola Sotelo</h1>

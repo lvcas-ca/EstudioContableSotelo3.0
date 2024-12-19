@@ -18,7 +18,7 @@ export const NavBar = () =>{
   const width = useResponsiveWidth();
   const medaQueryDesk = 1195;
 
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState(true);
 
   const handleClick = () =>{
 

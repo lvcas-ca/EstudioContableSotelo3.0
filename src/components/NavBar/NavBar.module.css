@@ -79,7 +79,7 @@
         }
         
         .nav-desactive {
-          transform: translateX(100%); /* Menú oculto */
+          transform: translateX(0%); /* Menú oculto */
         }
 
           .menuIcon {

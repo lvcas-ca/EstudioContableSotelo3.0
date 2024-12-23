@@ -46,6 +46,15 @@ export const NavBar = () =>{
     
   };
 
+  const handleScrollContacto = () => {
+    navigate("/#contacto"); // Cambia la ruta
+    setTimeout(() => {
+      document.getElementById("contacto")?.scrollIntoView({ behavior: "smooth" });
+    }, 100); // Asegúrate de que el componente esté montado antes del scroll
+    setActive(false);
+    
+  };
+
 
    
 
@@ -123,7 +132,7 @@ export const NavBar = () =>{
         
           <button
             className={width < medaQueryDesk ? "hidden" : "bg-custom-gradient"}
-            
+            onClick={handleScrollContacto}
               >
             Contacto
           </button>

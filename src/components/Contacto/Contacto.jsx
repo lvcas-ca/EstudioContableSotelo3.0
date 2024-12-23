@@ -24,7 +24,7 @@ export const Contacto = () =>{
             <div className={ContactoCss.contact__container__text__call}>
               <div className={ContactoCss.contact__container__text__call__icon1}>
                 <img src={img1} alt="" />
-                <span>1124635748</span>
+                <span>1124556881</span>
               </div>
 
               <div className={ContactoCss.contact__container__text__call__icon1}>

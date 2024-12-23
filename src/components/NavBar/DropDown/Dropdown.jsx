@@ -39,6 +39,7 @@ return (
  
     <div ref={dropdownRef} className={ `text-white ms:relative lg:absolute  flex flex-col left-6 top-[50px] z-50 mt-2 w-56 rounded-md bg-[#262B3E] shadow-lg ${toggle ? 'block' : 'hidden'}`} role="menu" aria-orientation="vertical" aria-labelledby="menu-button">
             <Link to={"/PequeñosContribuyentes"}>Pequeños Contribuyentes</Link>
+            <Link to={"/impuestos"}>Impuestos</Link>
             <Link to={"/LaboralProvisinal"}>Laboral & Previsional</Link>
             <Link to={"/Sociedades"}>Sociedades</Link>
             <Link to={"/AdminConsorcios"}>Administración de consorcios</Link>

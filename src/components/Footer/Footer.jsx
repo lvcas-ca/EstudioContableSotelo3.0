@@ -1,7 +1,10 @@
+import { WsButton } from '../WsButton/WsButton';
 import facebook from '/src/assets/facebok.png';
 import instagram from '/src/assets/insta.png';
 
 import siteLogo from "/src/assets/logo-white.png";
+
+
 
 import {  Link } from "react-router-dom";
 
@@ -45,7 +48,10 @@ export const Footer = () =>{
                 <button>Suscribirse</button>
             </form>
           </div>
+
+         <WsButton/>  
         </section>
+        
     )
 }
 

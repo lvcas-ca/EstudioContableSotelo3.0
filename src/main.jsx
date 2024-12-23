@@ -1,6 +1,8 @@
 import * as React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { createRoot } from 'react-dom/client'
+
+
 import './index.css'
 
 import Home from './pages/Home.jsx';
@@ -8,6 +10,7 @@ import Home from './pages/Home.jsx';
 import InfoCripto from './pages/InfoCripto.jsx';
 import ServiciosPage from "./pages/ServiciosPage.jsx";
 import PequeñosContribuyentes from './pages/PequeñosContribuyentes.jsx';
+import { Impuestos } from "./pages/Impuestos.jsx";
 import LaboralProvisinal from  './pages/LaboralProvisinal.jsx';
 import Sociedades from './pages/Sociedades.jsx';
 import AdminConsorcios from "./pages/AdminConsorcios.jsx";
@@ -15,6 +18,7 @@ import InformesCertificaciones from './pages/InformesCertificaciones.jsx';
 import ServiciosImpositivos from './pages/ServiciosImpositivos.jsx';
 import ConsultoriasProfesionales from './pages/ConsultoriasProfesionales.jsx';
 import { OnlyContact } from "./pages/OnlyContact.jsx";
+import ScrollToTop from "./components/utilities/ScrollToTop.jsx";
 
 
 
@@ -26,6 +30,11 @@ const router = createBrowserRouter([
   {
     path: '/PequeñosContribuyentes',
     element: <PequeñosContribuyentes/>,
+  },
+
+  {
+    path: '/Impuestos',
+    element: <Impuestos/>,
   },
 
   {
@@ -77,9 +86,10 @@ const router = createBrowserRouter([
 
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
+    
     <RouterProvider router={router}>
-      
+     <ScrollToTop/> 
     </RouterProvider>
- </React.StrictMode>,
+ 
 )

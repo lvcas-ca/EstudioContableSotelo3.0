@@ -6,7 +6,9 @@ export const Cards = () =>{
     return (
       <>
         <div className={CardsCss.cards}>
-          <Link to={"/PequeñosContribuyentes"}>
+          <Link to={"/PequeñosContribuyentes"}
+                onClick={() => window.scrollTo(0, 0)}
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(001)</span>
@@ -28,9 +30,13 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/Impuestos"}>
+          <Link to={"/Impuestos"}
+                onClick={() => window.scrollTo(0, 0)}
+          
+          >
             <div className={CardsCss.card}>
               <header>
+
                 <span>(002)</span>
                 <ArrowUpRightIcon className={CardsCss.arrow} />
               </header>
@@ -51,7 +57,9 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/LaboralProvisinal"}>
+          <Link to={"/LaboralProvisinal"}
+                onClick={() => window.scrollTo(0, 0)}
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(003)</span>
@@ -80,7 +88,9 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/Sociedades"}>
+          <Link to={"/Sociedades"}
+                onClick={() => window.scrollTo(0, 0)}
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(004)</span>
@@ -104,7 +114,9 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/AdminConsorcios"}>
+          <Link to={"/AdminConsorcios"}
+                 onClick={() => window.scrollTo(0, 0)}
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(005)</span>
@@ -129,7 +141,10 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/InformesCertificaciones"}>
+          <Link to={"/InformesCertificaciones"}
+                onClick={() => window.scrollTo(0, 0)}
+                
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(006)</span>
@@ -147,14 +162,16 @@ export const Cards = () =>{
                 <li>Certificación de ingresos y gastos.</li>
                 <li>Informes de cumplimiento.</li>
                 <li>Certificación pagos sujetos del exterior.</li>
-                <li>Consultar por otras certificaciones</li>
+                <li>Consultar por otras certificaciones.</li>
               </ul>
 
               <button>Ver Mas</button>
             </div>
           </Link>
 
-          <Link to={"/ServiciosImpositivos"}>
+          <Link to={"/ServiciosImpositivos"}
+                onClick={() => window.scrollTo(0, 0)}
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(007)</span>
@@ -177,7 +194,11 @@ export const Cards = () =>{
             </div>
           </Link>
 
-          <Link to={"/ConsultoriasProfesionales"}>
+          <Link to={"/ConsultoriasProfesionales"}
+                onClick={() => window.scrollTo(0, 0)}
+          
+          
+          >
             <div className={CardsCss.card}>
               <header>
                 <span>(008)</span>

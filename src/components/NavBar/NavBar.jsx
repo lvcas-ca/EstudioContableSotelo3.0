@@ -37,13 +37,16 @@ export const NavBar = () =>{
 
   const navigate = useNavigate();
 
-  const handleScroll = () => {
+  const handleScrollAbout = () => {
     navigate("/#about"); // Cambia la ruta
     setTimeout(() => {
       document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
     }, 100); // Asegúrate de que el componente esté montado antes del scroll
     setActive(false);
+    
   };
+
+
    
 
   
@@ -88,16 +91,21 @@ export const NavBar = () =>{
               </li>
 
               <li>
-                <a onClick={handleScroll}>
+                <a onClick={handleScrollAbout}>
                   Quienes somos
                 </a>
               </li>
               <li>
                 <Link to={"/cripto" } onClick={handleClick}>Info Cripto</Link>
               </li>
-              <li>
+            {/*
+            
+            <li>
                 <Link to={"/cripto"} onClick={handleClick}>Blog</Link>
               </li>
+            
+            */}
+              
 
               <div  className={`
                                   ${width < medaQueryDesk ? "text-white flex gap-[10px]" : "hidden"} 
@@ -115,7 +123,7 @@ export const NavBar = () =>{
         
           <button
             className={width < medaQueryDesk ? "hidden" : "bg-custom-gradient"}
-            onClick={() => window.location.replace("/#contacto")}
+            
               >
             Contacto
           </button>

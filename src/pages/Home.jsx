@@ -1,9 +1,12 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import '../Home.css';
 import QuienesSomos from '../components/QuienesSomos/QuienesSomos';
 import { Header } from '../components/Header';
 import { Servicios } from '../components/Servicios/Servicios';
 import { Contacto } from '../components/Contacto/Contacto';
 import { Footer } from '../components/Footer/Footer';
+
+
 
 function Home () {
     return (
@@ -12,6 +15,7 @@ function Home () {
             <Header/>
         </header>
         <main >
+           <SpeedInsights /> {/* Aquí se renderiza el componente para medir el rendimiento */}
            <div className='px-[10px] md:px-[150px]'>
              <Servicios/> 
            </div>

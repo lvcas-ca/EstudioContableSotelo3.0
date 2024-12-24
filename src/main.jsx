@@ -20,6 +20,8 @@ import ConsultoriasProfesionales from './pages/ConsultoriasProfesionales.jsx';
 import { OnlyContact } from "./pages/OnlyContact.jsx";
 import ScrollToTop from "./components/utilities/ScrollToTop.jsx";
 
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 
 const router = createBrowserRouter([
@@ -87,7 +89,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
 
-    
+   
     <RouterProvider router={router}>
      <ScrollToTop/> 
     </RouterProvider>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import { HeroOfEachService } from "./components/HeroOfEachService";
 import { ResumeServiceFooter } from "./components/ResumeServiceFooter";
@@ -15,11 +15,11 @@ export const Impuestos = () => {
                 }
             />  
 
-  <div className="px-[10px] md:px-[100px] pt-[50px]">
+  <div className="w-[100%] md:w-[70%] px-[10px] md:px-[100px] pt-[50px]">
         <h2 className="text-white text-[40px] font-semibold leading-9 font-Outfit">
           Servicios de Impuestos
         </h2>
-        <p className="w-[70%] pt-[20px] font-medium">
+        <p className="font-medium">
           En Estudio Contable Sotelo brindamos asesoramiento integral y soluciones estratégicas en materia impositiva, 
           ayudando a nuestros clientes a cumplir con sus obligaciones fiscales y 
           optimizar su carga tributaria.
@@ -35,11 +35,11 @@ export const Impuestos = () => {
           Planificación Fiscal y Asesoramiento Integral
         </h3>
 
-        <p className="w-[70%] pt-[20px] font-medium">
+        <p className="pt-[20px] font-medium">
             Ofrecemos estrategias personalizadas para maximizar beneficios fiscales 
             y cumplir con la normativa vigente:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[20px] font-medium">
+        <ul className="list-disc ml-5 pt-[20px] font-medium">
           <li>
             <strong>Optimización tributaria:</strong> Diseñamos un plan fiscal adaptado a las necesidades del cliente,
              identificando oportunidades de ahorro impositivo.
@@ -57,11 +57,11 @@ export const Impuestos = () => {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
          Gestión de Impuestos Nacionales, Provinciales y Municipales
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Realizamos la inscripción y baja de impuestos en diferentes 
           jurisdicciones, asegurando una gestión eficiente:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
             <strong>Alta y baja de impuestos:</strong> Gestionamos trámites en organismos nacionales, provinciales y municipales.
           </li>
@@ -77,11 +77,11 @@ export const Impuestos = () => {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
          Impuesto a las Ganancias y Bienes Personales
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Asesoramos en el correcto cálculo y liquidación de estos impuestos 
           clave para personas físicas y jurídicas:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
              <strong>Cálculo y presentación:</strong> Realizamos el cálculo detallado y la presentación de las declaraciones juradas.
           </li>

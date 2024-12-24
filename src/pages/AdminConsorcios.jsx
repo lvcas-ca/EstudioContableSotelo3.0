@@ -13,11 +13,11 @@ function AdminConsorcios() {
         }
       />
 
-      <div className="px-[10px] md:px-[100px] pt-[50px]">
+      <div className="w-[100%] md:w-[70%] px-[20px] md:px-[100px] pt-[50px]">
         <h2 className="text-white text-[40px] font-semibold leading-9 font-Outfit">
           Administración de Consorcios
         </h2>
-        <p className="w-[70%] pt-[20px] font-medium">
+        <p className="pt-[20px] font-medium">
            En nuestro estudio contable, ofrecemos un servicio profesional y transparente para la administración de consorcios, 
            asegurando el cumplimiento de todas las obligaciones legales y la eficiente gestión de los 
            recursos del edificio. Nuestros servicios incluyen::
@@ -33,11 +33,11 @@ function AdminConsorcios() {
            Administración y Conservación del Inmueble
         </h3>
 
-        <p className="w-[70%] pt-[20px] font-medium">
+        <p className="pt-[20px] font-medium">
           Nos encargamos de la administración integral del consorcio,
           enfocándonos en el mantenimiento y conservación de las instalaciones::
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[20px] font-medium">
+        <ul className="list-disc ml-5 pt-[20px] font-medium">
           <li>
             Coordinación de tareas de mantenimiento preventivo y correctivo
           </li>
@@ -52,11 +52,11 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Gestión de Fondos y Rendición de Cuentas
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Brindamos una gestión transparente de los fondos del consorcio, garantizando un manejo 
           eficiente y documentado de los recursos:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
           Administración de ingresos y egresos del consorcio.
           </li>
@@ -69,10 +69,10 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
          Información Contable Conforme a la Ley
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
          Garantizamos la preparación y presentación de información contable cumpliendo con la normativa vigente:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
             Confección de informes contables claros y detallados.
           </li>
@@ -85,10 +85,10 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
            Liquidación Mensual Conforme a la Ley 
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
          Realizamos la liquidación mensual de expensas, incorporando toda la información contable obligatoria:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
             Detalle de los ingresos y gastos del período.
           </li>
@@ -103,10 +103,10 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Convocatoria de Asambleas
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
          Organizamos y gestionamos la convocatoria de asambleas ordinarias y extraordinarias:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
            Preparación y envío de la citación correspondiente a los propietarios.
           </li>
@@ -121,10 +121,10 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
          Seguimiento del Cobro de Expensas
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
          Realizamos un seguimiento activo para asegurar el cobro puntual de las expensas:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>Control de pagos y generación de avisos de deuda.</li>
           <li>Implementación de estrategias para reducir la morosidad en el consorcio.</li>
           <li>
@@ -135,10 +135,10 @@ function AdminConsorcios() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Custodia de Libros y Documentos del Consorcio
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Nos ocupamos de la correcta custodia y mantenimiento de la documentación del consorcio:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
             Conservación de libros de actas, registros contables y otros documentos obligatorios.
           </li>

@@ -16,11 +16,11 @@ function InfoCripto(){
                     <h1 className='text-blacks font-Outfit font-bold text-[40px] md:text-[50px]'>Info Criptomonedas</h1>
                   </div>
                   
-                  <div className="px-[10px] md:px-[100px] pt-[50px]">
+                  <div className="w-[100%] md:w-[70%] px-[10px] md:px-[100px] pt-[50px]">
                   <h2 className="text-white text-[40px] font-semibold leading-9 font-Outfit">
                   ¿QUÉ SON LAS CRIPTOMONEDAS?
                   </h2>
-                  <p className="w-[70%] pt-[20px] font-medium">
+                  <p className="pt-[20px] font-medium">
                     Una criptomoneda es un activo digital que emplea un cifrado criptográfico para garantizar su
                     titularidad y asegurar la integridad de las transacciones. 
                     Estas monedas no existen de forma física: se almacenan en una cartera digital. 
@@ -32,7 +32,7 @@ function InfoCripto(){
                     QUÉ ES UNA BILLETERA VIRTUAL
                   </h3>
 
-                  <p className="w-[70%] pt-[20px] font-medium">
+                  <p className="pt-[20px] font-medium">
                     Un monedero digital o wallet es una aplicación donde es posible almacenar, 
                     enviar y recibir criptomonedas. Lo cierto es que a diferencia de un monedero de 
                     dinero físico, lo que realmente se almacena son las claves que nos dan la propiedad y 
@@ -43,7 +43,7 @@ function InfoCripto(){
                   <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
                   TECNOLOGÍA BLOCKCHAIN
                   </h3>
-                  <p className="w-[70%] pt-[10px] font-medium">
+                  <p className="pt-[10px] font-medium">
                     Las criptomonedas funcionan mediante el registro contable compartido o blockchain.
                     Esta tecnología les aporta un elevado sistema de seguridad con capacidad para evitar 
                     que un mismo activo digital se pueda transferir en dos ocasiones o que sea falsificado. 
@@ -54,7 +54,7 @@ function InfoCripto(){
                   <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
                     QUÉ ES UN BITCOIN
                   </h3>
-                  <p className="w-[70%] pt-[10px] font-medium">
+                  <p className="pt-[10px] font-medium">
                         Bitcoin es el nombre que recibió la primera criptomoneda. Data del año 2009 y
                       nació de la mano de una persona o grupo de personas que se hicieron llamar 
                       Satoshi Nakamoto, quienes lograron crear el bitcoin bajo la tecnología blockchain, que ellos mismos inventaron.
@@ -69,7 +69,7 @@ function InfoCripto(){
 
                 
                   
-              </div>  
+                  </div>  
             
 
         </Layout>

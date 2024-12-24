@@ -13,7 +13,7 @@ function ConsultoriasProfesionales() {
         }
       />
 
-      <div className="px-[10px] md:px-[100px] pt-[50px] font-Outfit font-bold">
+      <div className="w-[100%] md:w-[70%] px-[10px] md:px-[100px] pt-[50px] font-Outfit font-bold">
         <img
           className="py-[20px]"
           src="https://res.cloudinary.com/dgtfypija/image/upload/v1734499067/Esstudio%20Contable%20web/consultria_hkwchv.png"
@@ -25,7 +25,7 @@ function ConsultoriasProfesionales() {
           Diagnóstico de Administraciones Disfuncionales
         </h3>
 
-        <p className="w-[100%] md:w-[70%]  pt-[20px] font-medium">
+        <p className="pt-[20px] font-medium">
           En Estudio Contable Sotelo identificamos y abordamos los problemas que
           afectan la productividad y organización de las empresas. Una
           administración disfuncional puede generar costos ocultos, reducir la
@@ -36,7 +36,7 @@ function ConsultoriasProfesionales() {
           Síntomas frecuentes de una administración disfuncional
         </h3>
 
-        <ol className="list-decimal ml-5 w-[70%] pt-[20px] font-medium">
+        <ol className="list-decimal ml-5 pt-[20px] font-medium">
           <li>
             <strong className="text-[18px]">
               Falta de claridad en la estructura jerárquica
@@ -72,7 +72,7 @@ function ConsultoriasProfesionales() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Nuestro enfoque
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Detectamos las áreas de mejora y proponemos soluciones estratégicas
           que permiten optimizar la organización, mejorar la toma de decisiones
           y garantizar la sostenibilidad de las empresas. ¡Contáctanos para
@@ -83,13 +83,13 @@ function ConsultoriasProfesionales() {
           Análisis de Flexibilidad Organizacional
         </h3>
 
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
           Evaluamos la capacidad de la empresa para adaptarse a cambios internos
           y externos, identificando áreas de mejora clave y optimizando
           procesos:
         </p>
 
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
             Diagnóstico de resiliencia frente a imprevistos y cambios del
             mercado.
@@ -107,11 +107,11 @@ function ConsultoriasProfesionales() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Desarrollo de Soluciones Personalizadas
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
             Diseñamos estrategias adaptadas a las necesidades y objetivos específicos de cada cliente,
              fomentando la eficiencia y el crecimiento sostenible:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
            Optimización de flujos de trabajo y mejora en la asignación de recursos.
           </li>
@@ -126,11 +126,11 @@ function ConsultoriasProfesionales() {
         <h3 className="text-white text-[25px] font-semibold leading-7 pt-[20px]">
           Acompañamiento Profesional Continuo
         </h3>
-        <p className="w-[70%] pt-[10px] font-medium">
+        <p className="pt-[10px] font-medium">
            Brindamos apoyo integral en todo el proceso, desde el análisis hasta la 
            implementación de soluciones, asegurando un enfoque estratégico:
         </p>
-        <ul className="list-disc ml-5 w-[70%] pt-[10px] font-medium">
+        <ul className="list-disc ml-5 pt-[10px] font-medium">
           <li>
            Sesiones de consultoría online o presencial, según las necesidades del cliente.
           </li>

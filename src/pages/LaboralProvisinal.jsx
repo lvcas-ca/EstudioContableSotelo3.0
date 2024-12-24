@@ -15,7 +15,7 @@ function LaboralProvisinal(){
           }
         />
 
-        <div className="px-[10px] md:px-[100px] pt-[50px]">
+        <div className="w-[100%] md:w-[70%] px-[10px] md:px-[100px] pt-[50px]">
           <h2 className="font-Outfit text-white text-[40px] font-semibold leading-9">
             Laboral & Previsional
           </h2>

@@ -5,11 +5,13 @@ import { ResumeServiceFooter } from "./components/ResumeServiceFooter";
 
 
 
+
 function InfoCripto(){
     return(
         <>
         
         <Layout>
+                
                   <div className='flex justify-center items-start flex-col px-[10px] md:px-[100px] h-[300px]'  style={{ backgroundImage: `url(https://res.cloudinary.com/dgtfypija/image/upload/v1734897661/Esstudio%20Contable%20web/infocripto-min_cxcugg.png)` }}>
                     <h1 className='text-blacks font-Outfit font-bold text-[40px] md:text-[50px]'>Info Criptomonedas</h1>
                   </div>

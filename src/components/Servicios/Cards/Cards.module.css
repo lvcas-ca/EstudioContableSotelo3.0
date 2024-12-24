@@ -4,7 +4,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 50px;
     justify-items: center;
-    padding-top: 20px;
+    padding: 50px 0px 50px 0px;
    
     .card {
         
@@ -104,6 +104,11 @@
 
 .cards > a:nth-of-type(3) > .card ul {
     line-height: 20px;
+    gap: 5px;
+}
+
+.cards > a:nth-of-type(3) > .card {
+    height: 480px;
 }
 
 .cards > a:nth-of-type(3) > .card {
@@ -125,17 +130,24 @@
 }
 
 .cards > a:nth-of-type(4) > .card {
-    gap: 40px
+    gap: 25px
      
- }
+}
+
+
 
 .cards > a:nth-of-type(5) > .card {
    gap: 19px
     
 }
 
+.cards > a:nth-of-type(5) > .card {
+    height: 515px;
+     
+ }
+
 .cards > a:nth-of-type(6) > .card {
-    gap: 38px
+    gap: 20px
      
  }
 
@@ -146,7 +158,7 @@
 
 .cards > a:nth-of-type(8) > .card {
     
-    gap: 41px;
+    gap: 18px;
      
 }
 
@@ -158,5 +170,30 @@
         .card{
             width: 350px;
         }
+    }
+
+    .cards > a:nth-of-type(3) > .card {
+        height: 460px;
+    }
+
+    .cards > a:nth-of-type(4) > .card {
+        gap: 40px
+         
+    }
+
+    .cards > a:nth-of-type(5) > .card {
+        height: 460px;
+         
+    }
+
+    .cards > a:nth-of-type(6) > .card {
+        gap: 38px
+         
+     }
+
+     .cards > a:nth-of-type(8) > .card {
+    
+        gap: 41px;
+         
     }
 }

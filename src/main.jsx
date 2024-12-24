@@ -20,7 +20,7 @@ import ConsultoriasProfesionales from './pages/ConsultoriasProfesionales.jsx';
 import { OnlyContact } from "./pages/OnlyContact.jsx";
 import ScrollToTop from "./components/utilities/ScrollToTop.jsx";
 
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 
 

@@ -1,5 +1,7 @@
 import { SpeedInsights } from "@vercel/speed-insights/react"
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
+
+
 import '../Home.css';
 import QuienesSomos from '../components/QuienesSomos/QuienesSomos';
 import { Header } from '../components/Header';

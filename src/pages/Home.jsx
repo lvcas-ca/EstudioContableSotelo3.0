@@ -1,4 +1,5 @@
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from '@vercel/analytics/next';
 import '../Home.css';
 import QuienesSomos from '../components/QuienesSomos/QuienesSomos';
 import { Header } from '../components/Header';
@@ -16,6 +17,7 @@ function Home () {
         </header>
         <main >
            <SpeedInsights /> {/* Aquí se renderiza el componente para medir el rendimiento */}
+           <Analytics />
            <div className='px-[10px] md:px-[150px]'>
              <Servicios/> 
            </div>

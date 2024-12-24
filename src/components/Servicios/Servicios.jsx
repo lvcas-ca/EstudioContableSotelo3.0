@@ -6,7 +6,10 @@ export const Servicios = () =>{
     <>
      <Title 
         titulo={"SERVICIOS"} 
-        descripcion={"Nuestro Estudio Contable le ofrece asesoramiento y una amplia gama de servicios administrativos, contables y financieros."}/>
+        descripcion={"Nuestro Estudio Contable le ofrece asesoramiento y una amplia gama de servicios administrativos, contables y financieros."}
+        colorTxt={"text-customBlack"}
+        />
+       
       <Cards/>
     </> 
     

@@ -8,6 +8,7 @@ import { Header } from '../components/Header';
 import { Servicios } from '../components/Servicios/Servicios';
 import { Contacto } from '../components/Contacto/Contacto';
 import { Footer } from '../components/Footer/Footer';
+import MarcasQueTrabajanConNosotros from "../components/MarcasQueTrabajanConNosotros/MarcasQueTrabajanConNosotros";
 
 
 
@@ -27,7 +28,8 @@ function Home () {
              <Contacto/> 
 
               <div className='px-[10px] md:px-[150px] bg-[#1C1D20]'>
-                 <QuienesSomos/>   
+                 <QuienesSomos/>
+                 <MarcasQueTrabajanConNosotros/>   
               </div>
              
            

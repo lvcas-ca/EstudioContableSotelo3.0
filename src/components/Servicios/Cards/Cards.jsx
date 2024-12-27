@@ -2,10 +2,16 @@ import CardsCss from "../Cards/Cards.module.css"
 import {  Link } from "react-router-dom";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
 
+
 export const Cards = () =>{
     return (
       <>
-        <div className={CardsCss.cards}>
+        
+
+          
+
+    
+
           <Link to={"/PequeñosContribuyentes"}
                 onClick={() => window.scrollTo(0, 0)}
           >
@@ -87,6 +93,7 @@ export const Cards = () =>{
               <button>Ver Mas</button>
             </div>
           </Link>
+
 
           <Link to={"/Sociedades"}
                 onClick={() => window.scrollTo(0, 0)}
@@ -224,8 +231,15 @@ export const Cards = () =>{
               <button>Ver Mas</button>
             </div>
           </Link>
+        
+     
+
+
+      
+
+    
           
-        </div>
+        
       </>
     );
     

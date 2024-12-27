@@ -17,7 +17,7 @@ export const Header = () => {
       <Cotizaciones/>
      
       <section className={HeaderCss.hero}>
-        <h1>Dra. Maria Paola Sotelo</h1>
+        <h1>Dra. Marisa Paola Sotelo</h1>
         <p>
           Contadora Pública Nacional. Tº436 Fº144 // T°183 F°78. Licenciada en
           Administración y Gestión Empresarial. Tº54 Fº38 // T°1 F°100. Técnica

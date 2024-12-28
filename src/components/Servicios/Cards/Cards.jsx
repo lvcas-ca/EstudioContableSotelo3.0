@@ -1,13 +1,18 @@
 import CardsCss from "../Cards/Cards.module.css"
 import {  Link } from "react-router-dom";
 import { ArrowUpRightIcon } from "@heroicons/react/20/solid";
-
+import { motion } from "framer-motion";
 
 export const Cards = () =>{
+
+
+
     return (
       <>
         <div className={CardsCss.cards}>
-    <Link to={"/PequeñosContribuyentes"}
+          
+        
+          <Link to={"/PequeñosContribuyentes"}
                   onClick={() => window.scrollTo(0, 0)}
             >
               <div className={CardsCss.card}>
@@ -29,7 +34,8 @@ export const Cards = () =>{
 
                 <button>Ver Mas</button>
               </div>
-            </Link>
+          </Link>
+        
 
             <Link to={"/Impuestos"}
                   onClick={() => window.scrollTo(0, 0)}

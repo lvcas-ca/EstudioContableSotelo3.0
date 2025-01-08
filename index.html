@@ -7,7 +7,29 @@
     <title>Estudio Contable Sotelo</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <div class="loader-wrapper">
+        <div class="loader">
+          <img src="./src/assets/gifLoading.gif" alt="Loading">
+        </div>
+      </div>
+      <style>
+        body{
+          margin: 0;
+        }
+        .loader-wrapper {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #0d0e10;
+        }
+
+        .loader {
+          text-align: center;
+        }
+      </style>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

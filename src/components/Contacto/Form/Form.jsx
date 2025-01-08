@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import { createPortal } from "react-dom";
 
 import FormCss from "../Form/Form.module.scss";
+import { motion } from "framer-motion";
 
 
 
@@ -76,7 +77,19 @@ export const Form = () => {
 
  
   return (
-    <div className={FormCss.form__container}>
+    <motion.div className={FormCss.form__container}
+       
+      initial={{ opacity: 0, x: 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{
+      duration: 1,
+      delay: 0.2,
+      ease: [0, 0.71, 0.2, 1.01],
+    }}
+      viewport={{ once: true }}
+    
+    
+    >
        <p>Envíanos tu mensaje</p>
       <form className="bg-black flex flex-col" ref={form} onSubmit={handleSubmit(Onsubmit)}>
         
@@ -103,6 +116,6 @@ export const Form = () => {
         <button style={{ backgroundColor: "orange" }} type="submit" value="Send">{changeText ?  "ENVIAR" : "cargando..."}</button>
        
       </form>
-    </div>
+    </motion.div>
   );
 };
